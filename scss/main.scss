@@ -53,6 +53,31 @@ header {
     }
 }
 
+.ratings {
+    margin-top: toRem(48);
+
+    .rating {
+        width: 100%;
+        // height: toRem(78);
+        background-color: $light-grayish-magenta;
+        text-align: center;
+        border-radius: 8px;
+        margin-bottom: toRem(16);
+
+        .stars {
+            padding-top: toRem(16);
+        }
+
+        h2 {
+            @include spartan(13, 15, 700);
+            color: $very-dark-magenta;
+            margin-top: toRem(16);
+            padding-bottom: toRem(16);
+        }
+    }
+
+}
+
 .attribution {
     display: none;
 }
