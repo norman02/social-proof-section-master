@@ -98,6 +98,31 @@ header p {
   grid-area: buyer;
 }
 
+.reviews {
+  margin-top: 3.0625rem;
+  margin-bottom: 5.1875rem;
+}
+
+.reviews li {
+  margin-bottom: 1rem;
+}
+
+.review {
+  padding: 2.75rem 1.5rem;
+  background-color: #512051;
+  border-radius: 8px;
+}
+
+.review p {
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+  font-weight: 500;
+  letter-spacing: -0.23px;
+  margin-top: 1.625rem;
+  color: white;
+}
+
 .attribution {
   display: none;
 }

@@ -102,6 +102,32 @@ header {
     }
 }
 
+.reviews {
+    margin-top: toRem(49);
+    margin-bottom: toRem(83);
+
+    li {
+        margin-bottom: toRem(16);
+    }
+}
+
+
+
+.review {
+    padding: toRem(44) toRem(24);
+    background-color: $very-dark-magenta;
+    border-radius: 8px;
+
+    p {
+        @include spartan(13, 22, 500);
+        letter-spacing: -0.23px;
+        margin-top: toRem(26);
+        color: white;
+    }
+}
+
+
+
 
 
 .attribution {
