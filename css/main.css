@@ -66,6 +66,38 @@ header p {
   padding-bottom: 1rem;
 }
 
+.profile {
+  width: 9.875rem;
+  display: grid;
+  grid-template-areas: "portrait name" "portrait buyer";
+  column-gap: 0;
+  align-items: center;
+}
+
+.profile img {
+  height: 2.5rem;
+  border-radius: 50%;
+  grid-area: portrait;
+}
+
+.profile h3 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.8125rem;
+  line-height: 0.9375rem;
+  font-weight: 700;
+  color: white;
+  grid-area: name;
+}
+
+.profile h4 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.8125rem;
+  line-height: 0.9375rem;
+  font-weight: 400;
+  color: #EE69A4;
+  grid-area: buyer;
+}
+
 .attribution {
   display: none;
 }
