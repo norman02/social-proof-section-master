@@ -10,7 +10,7 @@ header {
 
     p {
         @include spartan(15, 25, 500);
-        color: $dark-grayish-magenta;
+        color: $dark-magenta;
         margin-top: toRem(18);
         text-align: center;
     }
