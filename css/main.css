@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +8,12 @@
   vertical-align: baseline;
   text-decoration: none;
   list-style: none;
+}
+
+body {
+  padding: 0 6.4%;
+  background-image: url("../images/bg-pattern-top-mobile.svg");
+  background-repeat: no-repeat;
 }
 
 .attribution {
