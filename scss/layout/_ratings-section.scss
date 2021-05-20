@@ -7,16 +7,45 @@
         text-align: center;
         border-radius: 8px;
         margin-bottom: toRem(16);
-
-        .stars {
-            padding-top: toRem(16);
-        }
+        padding-top: toRem(16);
+        padding-bottom: toRem(16);
 
         h2 {
             @include spartan(13, 15, 700);
             color: $very-dark-magenta;
             margin-top: toRem(16);
-            padding-bottom: toRem(16);
+            
+        }
+    }   
+}
+
+@include media-lg {
+    .ratings {
+        margin-top: toRem(145);
+        padding-top: toRem(21);
+        padding-bottom: toRem(21);
+
+        .two {
+            margin-left: toRem(48);
+        }
+
+        .three {
+            margin-left: toRem(95);
+        }
+
+        .stars {
+            margin-left: toRem(32);
+            margin-right: toRem(32.45);
+        }
+
+        .rating {
+            width: toRem(445);
+            display: flex;
+            align-items: center;
+
+            h2 {
+                margin: 0;
+            }
         }
     }
 }
