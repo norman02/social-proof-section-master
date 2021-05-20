@@ -18,7 +18,9 @@
 
 @include media-lg {
     .header {
+        max-width: toRem(445);
         margin-top: toRem(127);
+        margin-right: toRem(125);
     
         h1 {
             @include spartan(48, 48, 700);

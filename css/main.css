@@ -36,7 +36,9 @@
 
 @media screen and (min-width: 1000px) {
   .header {
+    max-width: 27.8125rem;
     margin-top: 7.9375rem;
+    margin-right: 7.8125rem;
   }
   .header h1 {
     font-family: 'Spartan', sans-serif;
