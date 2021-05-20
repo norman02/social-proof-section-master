@@ -1,0 +1,17 @@
+header {
+    margin-top: toRem(80);
+
+    h1 {
+        @include spartan(32, 32, 700);
+        color: $very-dark-magenta;
+        letter-spacing: -1.14px;
+        text-align: center;
+    }
+
+    p {
+        @include spartan(15, 25, 500);
+        color: $dark-grayish-magenta;
+        margin-top: toRem(18);
+        text-align: center;
+    }
+}

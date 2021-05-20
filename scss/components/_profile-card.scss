@@ -1,0 +1,25 @@
+.profile {
+    width: toRem(158);
+    display: grid;
+    grid-template-areas: "portrait name" "portrait buyer";
+    column-gap: 0;
+    align-items: center;
+
+    img {
+        height: toRem(40);
+        border-radius: 50%;
+        grid-area: portrait;
+    }
+
+    h3 {
+       @include spartan(13, 15, 700);
+       color: white;
+       grid-area: name;
+    }
+
+    h4 {
+        @include spartan(13, 15, 400);
+        color: $soft-pink;
+        grid-area: buyer;
+    }
+}

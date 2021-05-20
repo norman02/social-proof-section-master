@@ -1,0 +1,6 @@
+@mixin spartan ($size, $line-height, $font-weight) {
+    font-family: 'Spartan', sans-serif;
+    font-size: toRem($size);
+    line-height: toRem($line-height);
+    font-weight: $font-weight;
+}

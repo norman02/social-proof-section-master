@@ -40,6 +40,10 @@ header p {
   text-align: center;
 }
 
+.attribution {
+  display: none;
+}
+
 .ratings {
   margin-top: 3rem;
 }
@@ -64,6 +68,15 @@ header p {
   color: #512051;
   margin-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.reviews {
+  margin-top: 3.0625rem;
+  margin-bottom: 5.1875rem;
+}
+
+.reviews li {
+  margin-bottom: 1rem;
 }
 
 .profile {
@@ -98,15 +111,6 @@ header p {
   grid-area: buyer;
 }
 
-.reviews {
-  margin-top: 3.0625rem;
-  margin-bottom: 5.1875rem;
-}
-
-.reviews li {
-  margin-bottom: 1rem;
-}
-
 .review {
   padding: 2.75rem 1.5rem;
   background-color: #512051;
@@ -121,9 +125,5 @@ header p {
   letter-spacing: -0.23px;
   margin-top: 1.625rem;
   color: white;
-}
-
-.attribution {
-  display: none;
 }
 /*# sourceMappingURL=main.css.map */
