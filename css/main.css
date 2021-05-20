@@ -16,6 +16,30 @@ body {
   background-repeat: no-repeat;
 }
 
+header {
+  margin-top: 5rem;
+}
+
+header h1 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: #512051;
+  letter-spacing: -1.14px;
+  text-align: center;
+}
+
+header p {
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  font-weight: 500;
+  color: #927B91;
+  margin-top: 1.125rem;
+  text-align: center;
+}
+
 .attribution {
   display: none;
 }
