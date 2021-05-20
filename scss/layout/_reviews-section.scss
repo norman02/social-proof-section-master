@@ -6,3 +6,12 @@
         margin-bottom: toRem(16);
     }
 }
+
+@include media-lg {
+    .reviews {
+        
+        ul{
+            display: flex;
+        }
+    }
+}

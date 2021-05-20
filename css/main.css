@@ -73,6 +73,12 @@ header p {
   margin-bottom: 1rem;
 }
 
+@media screen and (min-width: 1000px) {
+  .reviews ul {
+    display: flex;
+  }
+}
+
 .profile {
   width: 9.875rem;
   display: grid;
