@@ -10,11 +10,11 @@
   list-style: none;
 }
 
-header {
+.header {
   margin-top: 5rem;
 }
 
-header h1 {
+.header h1 {
   font-family: 'Spartan', sans-serif;
   font-size: 2rem;
   line-height: 2rem;
@@ -24,7 +24,7 @@ header h1 {
   text-align: center;
 }
 
-header p {
+.header p {
   font-family: 'Spartan', sans-serif;
   font-size: 0.9375rem;
   line-height: 1.5625rem;
@@ -32,6 +32,25 @@ header p {
   color: #5F4E5F;
   margin-top: 1.125rem;
   text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+  .header {
+    margin-top: 7.9375rem;
+  }
+  .header h1 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 700;
+    letter-spacing: -1.71px;
+    text-align: left;
+  }
+  .header p {
+    letter-spacing: -0.5px;
+    margin-top: 0.375rem;
+    text-align: left;
+  }
 }
 
 .attribution {
@@ -155,18 +174,18 @@ body {
     background-image: url("../images/bg-pattern-top-desktop.svg"), url("../../images/bg-pattern-bottom-desktop.svg");
     background-position: left top, right bottom;
   }
-  .page-container {
+  main {
     max-width: 69.375rem;
     display: grid;
-    grid-template-areas: 'header ratings' 'reviews reviews';
+    grid-template-areas: 'header ratings' "reviews reviews";
   }
-  .page-container header {
+  main .header {
     grid-area: header;
   }
-  .page-container .ratings {
+  main .ratings {
     grid-area: ratings;
   }
-  .page-container .reviews {
+  main .reviews {
     grid-area: reviews;
   }
 }

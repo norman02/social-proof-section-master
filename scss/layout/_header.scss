@@ -1,4 +1,4 @@
-header {
+.header {
     margin-top: toRem(80);
 
     h1 {
@@ -13,5 +13,23 @@ header {
         color: $dark-magenta;
         margin-top: toRem(18);
         text-align: center;
+    }
+}
+
+@include media-lg {
+    .header {
+        margin-top: toRem(127);
+    
+        h1 {
+            @include spartan(48, 48, 700);
+            letter-spacing: -1.71px;
+            text-align: left;
+        }
+
+        p {
+            letter-spacing: -0.5px;
+            margin-top: toRem(6);
+            text-align: left;
+        }
     }
 }
