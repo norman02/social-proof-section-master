@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    padding: 0 6.4%;
+    background-image: url('../images/bg-pattern-top-mobile.svg');
+    background-repeat: no-repeat;
+}
+
+.page-container {
+    background-color: transparent;
+}
+
+@include media-md {
+    .page-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+    }
+
+}
+
+@include media-lg {
+    body {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('../images/bg-pattern-top-desktop.svg'), url('../../images/bg-pattern-bottom-desktop.svg');
+        background-position: left top, right bottom;
+    }
+
+    .page-container {
+        max-width: toRem(1110);
+        display: grid;
+        grid-template-areas: 'header ratings' 'reviews reviews';
+
+        header {
+            grid-area: header;
+        }
+
+        .ratings {
+            grid-area: ratings;
+        }
+
+        .reviews {
+            grid-area: reviews;
+        }
+    }
+}

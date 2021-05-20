@@ -10,12 +10,6 @@
   list-style: none;
 }
 
-body {
-  padding: 0 6.4%;
-  background-image: url("../images/bg-pattern-top-mobile.svg");
-  background-repeat: no-repeat;
-}
-
 header {
   margin-top: 5rem;
 }
@@ -125,5 +119,49 @@ header p {
   letter-spacing: -0.23px;
   margin-top: 1.625rem;
   color: white;
+}
+
+body {
+  height: 100vh;
+  padding: 0 6.4%;
+  background-image: url("../images/bg-pattern-top-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+.page-container {
+  background-color: transparent;
+}
+
+@media screen and (min-width: 500px) {
+  .page-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/bg-pattern-top-desktop.svg"), url("../../images/bg-pattern-bottom-desktop.svg");
+    background-position: left top, right bottom;
+  }
+  .page-container {
+    max-width: 69.375rem;
+    display: grid;
+    grid-template-areas: 'header ratings' 'reviews reviews';
+  }
+  .page-container header {
+    grid-area: header;
+  }
+  .page-container .ratings {
+    grid-area: ratings;
+  }
+  .page-container .reviews {
+    grid-area: reviews;
+  }
 }
 /*# sourceMappingURL=main.css.map */
