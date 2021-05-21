@@ -9,4 +9,20 @@
         margin-top: toRem(26);
         color: white;
     }
+
+    @include media-lg {
+        padding: 0;
+        width: toRem(350);
+        height: toRem(234);
+
+        .profile {
+            margin-top: toRem(40);
+            margin-left: toRem(32);
+        }
+
+        p {
+            margin: toRem(33) toRem(32) toRem(48) toRem(32);
+
+        }
+    }
 }

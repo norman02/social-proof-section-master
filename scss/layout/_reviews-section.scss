@@ -12,6 +12,19 @@
         
         ul{
             display: flex;
+
+            li {
+                margin-right: toRem(30);
+                
+            }
+        }
+
+        .two {
+            margin-top: toRem(16);
+        }
+
+        .three {
+            margin-top: toRem(32);
         }
     }
 }

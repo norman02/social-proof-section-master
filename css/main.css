@@ -121,6 +121,15 @@
   .reviews ul {
     display: flex;
   }
+  .reviews ul li {
+    margin-right: 1.875rem;
+  }
+  .reviews .two {
+    margin-top: 1rem;
+  }
+  .reviews .three {
+    margin-top: 2rem;
+  }
 }
 
 .profile {
@@ -169,6 +178,21 @@
   letter-spacing: -0.23px;
   margin-top: 1.625rem;
   color: white;
+}
+
+@media screen and (min-width: 1000px) {
+  .review {
+    padding: 0;
+    width: 21.875rem;
+    height: 14.625rem;
+  }
+  .review .profile {
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+  }
+  .review p {
+    margin: 2.0625rem 2rem 3rem 2rem;
+  }
 }
 
 body {
