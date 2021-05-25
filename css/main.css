@@ -34,7 +34,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .header {
     max-width: 27.8125rem;
     margin-top: 7.9375rem;
@@ -82,7 +82,7 @@
   margin-top: 1rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .ratings {
     margin-top: 9.0625rem;
     padding-top: 1.3125rem;
@@ -117,7 +117,7 @@
   margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .reviews ul {
     display: flex;
   }
@@ -180,7 +180,7 @@
   color: white;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .review {
     padding: 0;
     width: 21.875rem;
@@ -214,7 +214,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   body {
     padding: 0;
     display: flex;
